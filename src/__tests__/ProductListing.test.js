@@ -1,7 +1,7 @@
 import React from 'react';
 import {configure, shallow} from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16';
-import ProductListing from './';
+import ProductListing from '../components/ProductListing';
 
 configure({ adapter: new Adapter() });
 

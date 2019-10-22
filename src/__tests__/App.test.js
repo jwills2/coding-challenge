@@ -2,7 +2,7 @@ import React from 'react';
 import {configure, mount} from 'enzyme'
 import {MemoryRouter} from 'react-router-dom'
 import Adapter from 'enzyme-adapter-react-16';
-import App from './App';
+import App from '../App';
 
 configure({ adapter: new Adapter() });
 
