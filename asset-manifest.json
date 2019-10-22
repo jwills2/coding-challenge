@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/coding-challenge/static/css/main.42f345f6.chunk.css",
+    "main.css": "/coding-challenge/static/css/main.74c0ef10.chunk.css",
     "main.js": "/coding-challenge/static/js/main.2e0606e4.chunk.js",
     "main.js.map": "/coding-challenge/static/js/main.2e0606e4.chunk.js.map",
     "runtime-main.js": "/coding-challenge/static/js/runtime-main.62a5aea4.js",
@@ -8,16 +8,16 @@
     "static/js/2.87ab23d0.chunk.js": "/coding-challenge/static/js/2.87ab23d0.chunk.js",
     "static/js/2.87ab23d0.chunk.js.map": "/coding-challenge/static/js/2.87ab23d0.chunk.js.map",
     "index.html": "/coding-challenge/index.html",
-    "precache-manifest.fc89d960940380e782cbbecc206a59e3.js": "/coding-challenge/precache-manifest.fc89d960940380e782cbbecc206a59e3.js",
+    "precache-manifest.ec00255d096b4de4374203c2b79330e2.js": "/coding-challenge/precache-manifest.ec00255d096b4de4374203c2b79330e2.js",
     "service-worker.js": "/coding-challenge/service-worker.js",
-    "static/css/main.42f345f6.chunk.css.map": "/coding-challenge/static/css/main.42f345f6.chunk.css.map",
+    "static/css/main.74c0ef10.chunk.css.map": "/coding-challenge/static/css/main.74c0ef10.chunk.css.map",
     "static/media/style.scss": "/coding-challenge/static/media/clear-icon.a1cc3746.svg",
     "static/media/search-icon.a87eca9e.svg": "/coding-challenge/static/media/search-icon.a87eca9e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.62a5aea4.js",
     "static/js/2.87ab23d0.chunk.js",
-    "static/css/main.42f345f6.chunk.css",
+    "static/css/main.74c0ef10.chunk.css",
     "static/js/main.2e0606e4.chunk.js"
   ]
 }
