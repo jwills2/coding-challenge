@@ -10,7 +10,9 @@ const SearchBar = () => {
 	const handleChange = (e) => setSearchTerm(e.target.value);
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		history.push(`/search/${searchTerm}`, [searchTerm])
+		if(searchTerm){
+			history.push(`/search/${searchTerm}`, [searchTerm])
+		}
 	};
 
 	return (
