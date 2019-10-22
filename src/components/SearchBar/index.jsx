@@ -12,7 +12,7 @@ const SearchBar = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		if(inputSearchTerm && inputSearchTerm !== searchTerm){
-			history.push(`/search/${inputSearchTerm}`, [inputSearchTerm])
+			history.push(`/coding-challenge/search/${inputSearchTerm}`, [inputSearchTerm])
 		}
 	};
 

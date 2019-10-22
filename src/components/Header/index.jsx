@@ -7,7 +7,7 @@ function Header() {
 	return (
 		<header className="header">
 			<div className="header__inner-container">
-				<Link to="/" className="header__logo">Logo</Link>
+				<Link to="/coding-challenge" className="header__logo">Logo</Link>
 				<SearchBar />
 			</div>
 		</header>

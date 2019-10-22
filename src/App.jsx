@@ -7,7 +7,7 @@ import './App.scss';
 function App() {
 	return (
 		<Switch>
-			<Route path="/search/:searchTerm">
+			<Route path="/coding-challenge/search/:searchTerm">
 				<Header />
 				<main className="content">
 					<SearchResults />
