@@ -1,0 +1,36 @@
+.header {
+	background: #191919;
+	width: 100%;
+	padding: 16px 0;
+	position: sticky;
+	top: 0;
+}
+
+.header__inner-container {
+	max-width: 1024px;
+	margin: 0px auto;
+	padding: 0 24px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.header__logo {
+	padding: 0 8px; 
+	line-height: 40px;
+	background: #0ca948;
+	margin-right: 16px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.content {
+	max-width: 1024px;
+	padding: 32px 24px;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+
+.content__heading-begin {
+	opacity: 0.8;
+}

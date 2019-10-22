@@ -1,0 +1,7 @@
+{
+	"extends": "stylelint-config-recommended",
+	"rules": {
+		"indentation": ["tab"],
+		"block-opening-brace-space-before": ["always"]
+	}
+}
