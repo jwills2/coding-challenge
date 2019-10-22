@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, Link} from 'react-router-dom';
 import SearchBar from './components/SearchBar';
 import SearchResults from './components/SearchResults';
 import './App.scss';
@@ -9,7 +9,7 @@ function App() {
 		<React.Fragment>
 			<header className="header">
 				<div className="header__inner-container">
-					<div className="header__logo">Logo</div>
+					<Link to="/" className="header__logo">Logo</Link>
 					<SearchBar />
 				</div>
 			</header>

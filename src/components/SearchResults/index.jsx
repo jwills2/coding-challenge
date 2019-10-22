@@ -47,7 +47,7 @@ function SearchResults(props) {
 	));
 
 	if(isFetching) {
-		return <p>Searching for "{searchTerm}"...</p>;
+		return <p>Searching for "{searchTerm}"</p>;
 	} else if (errorOccured) {
 		return <p>An error occured when searching for "{searchTerm}"</p>
 	} else {
