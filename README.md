@@ -1,4 +1,6 @@
-[View Live Version](http://jwills2.github.io/coding-challenge) 
+# MEC Coding Challenge
+
+You can view the live version of this project [here](http://jwills2.github.io/coding-challenge).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
