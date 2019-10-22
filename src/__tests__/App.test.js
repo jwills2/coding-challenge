@@ -8,7 +8,7 @@ configure({ adapter: new Adapter() });
 
 it('renders correct index page', () => {
 	const wrapper = mount(
-		<MemoryRouter initialEntries={["/"]}>
+		<MemoryRouter initialEntries={["/coding-challenge"]}>
 			<App />
 		</MemoryRouter>
 	);
@@ -20,7 +20,7 @@ it('renders correct index page', () => {
 
 it('renders correct search page', () => {
 	const wrapper = mount(
-		<MemoryRouter initialEntries={["/search/bike"]}>
+		<MemoryRouter initialEntries={["/coding-challenge/search/bike"]}>
 			<App />
 		</MemoryRouter>
 	);
