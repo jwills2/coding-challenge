@@ -40,9 +40,9 @@ function SearchResults(props) {
 	const productList = products.map((product) => (
 		<ProductListing
 			key={product.product_code}
-			name={product.name}
+			name={product.full_name}
 			imageUrl={product.default_image_urls.main_image_url}
-			imageAlt={product.full_name}
+			imageAlt={product.name}
 		/>
 	));
 
