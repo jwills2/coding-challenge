@@ -1,11 +1,18 @@
 .product-listing {
 	border-bottom: 1px solid #e1e1e1;
 	padding-bottom: 32px;
+	padding-bottom: 16px;
+	@media (min-width: 768px) {
+		padding-bottom: 32px;
+	}
 }
 
 .product-listing__name {
 	font-size: 14px;
-	margin: 32px 0 0 0;
+	margin: 8px 0 0 0;
+	@media (min-width: 768px) {
+		margin: 32px 0 0 0;
+	}
 }
 
 .product-listing__image {

@@ -1,7 +1,7 @@
 .search-results__product-list {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-gap: 32px;
+	grid-gap: 16px;
 
 	@media (min-width: 480px) {
 		grid-template-columns: 1fr 1fr;
