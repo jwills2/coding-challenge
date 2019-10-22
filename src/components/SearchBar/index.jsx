@@ -1,17 +1,18 @@
 import React, {useState} from 'react';
-import {useHistory} from 'react-router-dom';
+import {useHistory, useParams} from 'react-router-dom';
 import { ReactComponent as SearchIcon } from '../../assets/search-icon.svg';
 import './style.scss';
 
 const SearchBar = () => {
-	const [searchTerm, setSearchTerm] = useState('');
+	const {searchTerm} = useParams();
+	const [inputSearchTerm, setInputSearchTerm] = useState('');
 	const history = useHistory(); 
 
-	const handleChange = (e) => setSearchTerm(e.target.value);
+	const handleChange = (e) => setInputSearchTerm(e.target.value);
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		if(searchTerm){
-			history.push(`/search/${searchTerm}`, [searchTerm])
+		if(inputSearchTerm && inputSearchTerm !== searchTerm){
+			history.push(`/search/${inputSearchTerm}`, [inputSearchTerm])
 		}
 	};
 
@@ -21,7 +22,7 @@ const SearchBar = () => {
 				className="search-bar__input-field"
 				name="searchTerm"
 				type="search"
-				value={searchTerm}
+				value={inputSearchTerm}
 				onChange={handleChange}
 				placeholder="I'm looking for..."
 			/>

@@ -54,11 +54,9 @@ function SearchResults(props) {
 			<React.Fragment>
 				<h1>Search results for "{searchTerm}"</h1>
 				<p>{productList.length} products found</p>
-				{
-					productList.length ? (
-						<section className="search-results__product-list">{productList}</section>
-					) : <p>No products found</p>
-				}
+				{productList.length > 0 && (
+					<section className="search-results__product-list">{productList}</section>
+				)}
 			</React.Fragment>
 		)
 	}
