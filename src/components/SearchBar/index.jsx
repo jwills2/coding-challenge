@@ -18,7 +18,7 @@ const SearchBar = () => {
 			<input
 				className="search-bar__input-field"
 				name="searchTerm"
-				type="text"
+				type="search"
 				value={searchTerm}
 				onChange={handleChange}
 				placeholder="I'm looking for..."

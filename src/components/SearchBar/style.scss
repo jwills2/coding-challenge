@@ -14,6 +14,15 @@
 	display: block;
 	line-height: 16px;
 	flex-grow: 1;
+
+	&::-webkit-search-cancel-button {
+		background: url('../../assets/clear-icon.svg') no-repeat;
+		width: 24px;
+		height: 24px;
+		-webkit-appearance: none;
+		position: relative;
+		cursor: pointer;
+	}
 }
 
 .search-bar__search-button {
