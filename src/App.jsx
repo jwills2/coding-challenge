@@ -9,7 +9,9 @@ function App() {
 		<Switch>
 			<Route path="/search/:searchTerm">
 				<Header />
-				<main className="content"><SearchResults /></main>
+				<main className="content">
+					<SearchResults />
+				</main>
 			</Route>
 			<Route path="/">
 				<Header />
