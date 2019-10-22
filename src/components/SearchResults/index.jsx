@@ -30,7 +30,6 @@ function SearchResults(props) {
 			} catch (error) {
 				setErrorOccured(true);
 				setIsFetching(false);
-				console.error(error);
 			}
 		}
 
